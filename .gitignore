@@ -1,0 +1,6 @@
+# Ignore volume folders for Docker containers
+env/*-data/**/*
+# Exclude Gitea init file our default configuration
+!env/gitea-data/gitea/
+!env/gitea-data/gitea/conf/
+!env/gitea-data/gitea/conf/app.ini
